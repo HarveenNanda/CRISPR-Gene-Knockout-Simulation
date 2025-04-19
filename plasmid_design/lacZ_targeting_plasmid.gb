@@ -1,0 +1,15 @@
+LOCUS       lacZ_plasmid          4000 bp    DNA     circular SYN 01-JAN-2025
+DEFINITION  Simulated plasmid targeting lacZ gene in E. coli.
+FEATURES             Location/Qualifiers
+     source          1..4000
+                     /organism="Escherichia coli"
+     gene            100..900
+                     /gene="lacZ"
+     CDS             100..900
+                     /product="beta-galactosidase"
+     misc_feature    2000..2100
+                     /note="sgRNA target site"
+ORIGIN
+        1 atgacccgtt taggcgattc cggctacgag gcttactgca tgcgtcaggc tagcctgtag
+       61 gatggtctgt acgctgctgg ctacgctcag ctgactgctg actgactgac tggtggcctg
+//
